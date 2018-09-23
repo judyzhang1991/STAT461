@@ -1,0 +1,17 @@
+n=50
+N=646
+sample1=sample(N,n,replace=False)
+sample1=sample(N,n,replace=False)
+sample1=sample(N,n,replace=FALSE)
+sample1
+mean(dioxin[sample1])
+dioxin=agent.orange.data$dioxin
+agent.orange.data=read.table("agent_orange_data.txt", header=TRUE)
+dioxin=agent.orange.data$dioxin
+mean(dioxin[sample1])
+length(dioxin)
+n=50
+N=646
+sample1=sample(N,n,replace=FALSE)
+sample1
+mean(dioxin[sample1])

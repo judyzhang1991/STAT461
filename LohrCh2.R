@@ -1,5 +1,9 @@
 #STAT461 Advanced Survey Sampling Lohr Notes Ch2
 
+#Set working directory
+setwd("/Users/JudyZhang/Documents/Work/GitRepo/STAT425")
+
+
 #We can draw a simple random sample of size n from
 #a population of size N in R by the following commands:
 
@@ -23,3 +27,9 @@ mode = function(x){
 }
 
 mode(dioxin)
+
+n=50
+N=646
+sample1=sample(N,n,replace=FALSE)
+sample1
+mean(dioxin[sample1])
